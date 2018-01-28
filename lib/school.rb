@@ -5,6 +5,6 @@ class School
     @name = name
   end
   def add_student(student, grade)
-    @student_name = student
     @roster[grade] = student
+  end
 end
