@@ -5,7 +5,6 @@ class School
     @name = name
   end
   def add_student(student, grade)
-    stu_array = []
     stu_array << student
     @roster[grade] = stu_array
   end
