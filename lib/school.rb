@@ -22,4 +22,5 @@ class School
     @roster.each do |grade, stu_array|
       print "{#{grade} => #{stu_array.sort}}"
     end
+  end
 end
