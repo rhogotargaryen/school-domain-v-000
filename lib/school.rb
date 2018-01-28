@@ -18,7 +18,7 @@ class School
   def grade(grade)
     @roster[grade]
   end
-  def sort(@roster)
+  def sort
     @roster.each do |grade, stu_array|
       print "{#{grade} => #{stu_array.sort}}"
     end
