@@ -20,7 +20,8 @@ class School
   end
   def sort
     @roster.each do |grade, stu_array|
-      print "{#{grade} => #{stu_array.sort}}"
+      stu_array.sort!
+      print "{#{grade} => #{stu_array}}"
     end
   end
 end
