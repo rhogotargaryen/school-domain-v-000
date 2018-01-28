@@ -14,5 +14,8 @@ class School
       nu_array << student
       @roster[grade] = nu_array
     end
+    def grade(grade)
+      @roster[grade]
   end
 end
+  
