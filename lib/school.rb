@@ -13,6 +13,6 @@ class School
       nu_array = @roster[grade]
       nu_array << student
       @roster[grade] = nu_array
-
+    end
   end
 end
