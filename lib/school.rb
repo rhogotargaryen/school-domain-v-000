@@ -1,5 +1,5 @@
 class School
-  def initialized(name)
+  def initialize(name)
     @roster = []
     @name = name
   end
